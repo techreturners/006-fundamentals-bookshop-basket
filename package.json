@@ -1,5 +1,5 @@
 {
-  "name": "005-fundamentals-stock-example",
+  "name": "006-fundamentals-bookshop-basket",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/techreturners/005-fundamentals-stock-example.git"
+    "url": "git+https://github.com/techreturners/006-fundamentals-bookshop-basket.git"
   },
   "author": "Tech Returners",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/techreturners/005-fundamentals-stock-example/issues"
+    "url": "https://github.com/techreturners/006-fundamentals-bookshop-basket/issues"
   },
-  "homepage": "https://github.com/techreturners/005-fundamentals-stock-example#readme",
+  "homepage": "https://github.com/techreturners/006-fundamentals-bookshop-basket#bookshop-further-exercises",
   "devDependencies": {
     "jest": "23.6.0"
   }
