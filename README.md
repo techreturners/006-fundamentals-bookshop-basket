@@ -16,7 +16,7 @@ I think we're ready to create code that will allow people to add books in to the
 
 All the tasks below assume you will write the tests and the functionality for each requirement.
 
-Try and do them in a TDD manner and write the tests before writing the code.
+Try to complete the tasks in a TDD manner and write the tests before writing the code.
 
 # 1) Fork and Clone Repo
 
