@@ -1,0 +1,22 @@
+{
+  "name": "005-fundamentals-stock-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techreturners/005-fundamentals-stock-example.git"
+  },
+  "author": "Tech Returners",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techreturners/005-fundamentals-stock-example/issues"
+  },
+  "homepage": "https://github.com/techreturners/005-fundamentals-stock-example#readme",
+  "devDependencies": {
+    "jest": "23.6.0"
+  }
+}
