@@ -1,6 +1,6 @@
 # Bookshop Further Exercises
 
-The tasks within this repository build upon the Stock Manager tasks in the [Stock example repository].(https://github.com/techreturners/005-fundamentals-stock-example)
+The tasks within this repository build upon the Stock Manager tasks in the [Stock example repository](https://github.com/techreturners/005-fundamentals-stock-example)
 
 Its advised to complete the stock example tasks before continuing.
 
@@ -11,8 +11,6 @@ Our online book store is starting to take shape.
 We've got a database (JSON array) of books that we sell and we've got a piece of code (**stockmanager.js**) that provides information about the books we have in stock.
 
 I think we're ready to create code that will allow people to add books in to their basket and in order to do this properly we can utilise our existing stock code.
-
-We'll also enhance our stockmanager code to allow us to replenish our stock of books.
 
 # Tasks
 
@@ -26,7 +24,7 @@ Using GitHub fork this repository:
 
 https://github.com/techreturners/006-fundamentals-bookshop-basket
 
-Once **forked** you can clone it down to your laptops:
+Once **forked** you can clone it down to your laptop.
 
 (Don't forget to ensure you're in the Developer directory and not already in another Git Repo)
 
@@ -80,7 +78,7 @@ function removeBookFromBasket(isbnNumberOfBook, numberOfCopiesToRemove) {
 
 So we know that in our stock we keep a track of copies for each book, people are now able to add/remove books from their basket and that has an impact on the number of copies available.
 
-In real life we know that people can add a finite number of books into their basket. Basically as many as they can see on the shelf.
+In the real world we know that people can add a finite number of books into their basket. Basically as many as they can see on the shelf.
 
 However, in application terms the visitor to our new online store doesn't really know how many copies are available for a book. 
 
