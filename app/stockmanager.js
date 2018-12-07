@@ -22,6 +22,32 @@ let stockOfBooks = [
         author: "Roald Dahl",
         isbn: "784-461",
         copies: 8
+    },
+    {
+        title: "The BFG",
+        author: "Roald Dahl",
+        isbn: "777-888",
+        copies: 2
     }
 ];
+
+function getStock() {
+    return stockOfBooks;
+}
+
+function getBookByIsbn(isbnNumber) {
+    const booksMatchingFilter = stockOfBooks.filter( book => book.isbn == isbnNumber );
+    return booksMatchingFilter[0];
+}
+
+function getCopiesForBook(isbnNumber) {
+    const book = getBookByIsbn(isbnNumber);
+    return book.copies;
+}
+
+module.exports = {
+    getStock,
+    getBookByIsbn,
+    getCopiesForBook
+}
 
