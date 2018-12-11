@@ -45,9 +45,29 @@ function getCopiesForBook(isbnNumber) {
     return book.copies;
 }
 
+function decreaseCopiesRemainingForBook(isbnNumber, copiesToDecrease) {
+    let book = getBookByIsbn(isbnNumber);
+
+    if(book.copies < copiesToDecrease ) {
+        throw "The book ISBN (" + isbnNumber + ") only has " + book.copies + " remaining";
+    }
+    else {
+        book.copies -= copiesToDecrease;
+    }
+
+}
+
+function replenishCopiesRemainingForBook(isbnNumber, copiesToReplenish) {
+    let book = getBookByIsbn(isbnNumber);
+
+    book.copies += copiesToReplenish;
+}
+
 module.exports = {
     getStock,
     getBookByIsbn,
-    getCopiesForBook
+    getCopiesForBook,
+    decreaseCopiesRemainingForBook,
+    replenishCopiesRemainingForBook
 }
 
